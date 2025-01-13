@@ -36,6 +36,9 @@ public class CardEntity {
         this.cardId = cardId;
     }
 
+    public CardEntity() {
+    }
+
     public UUID getCardId() {
         return cardId;
     }
